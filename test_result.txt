@@ -1,0 +1,44 @@
+
+DAY 24 - COMPUTER VISION GAZE MATH
+==================================
+
+Environment:
+Python: 3.13.9
+OpenCV: 5.0.0
+MediaPipe: 1.2.0
+NumPy: 2.5.4
+
+Test Results:
+1. Virtual environment activation - PASSED
+2. OpenCV and MediaPipe imports - PASSED
+3. Face Landmarker model loading - PASSED
+4. Webcam initialization - PASSED
+5. Facial landmark detection - PASSED
+6. Iris coordinate calculation - PASSED
+7. Horizontal gaze displacement calculation - PASSED
+8. Vertical gaze displacement calculation - PASSED
+9. Centered gaze detection - PASSED
+10. Off-center gaze detection - PASSED
+11. Two-second anomaly detection - PASSED
+12. Anomaly logging - PASSED
+13. Webcam shutdown - PASSED
+
+Detected Anomalies:
+
+Event 1:
+Time: 2026-10-30 14:51:57
+Horizontal Shift: -0.275
+Vertical Shift: -0.046
+Duration: 2.00 seconds
+
+Event 2:
+Time: 2026-10-30 14:52:41
+Horizontal Shift: -0.230
+Vertical Shift: -0.057
+Duration: 2.01 seconds
+
+Final Status: PASSED
+
+Note:
+Gaze tolerance values are configurable initial calibration
+settings. They are not numerical values supplied in the task reference.
